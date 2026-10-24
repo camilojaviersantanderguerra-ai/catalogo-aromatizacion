@@ -64,5 +64,5 @@ En `config/whatsapp.ts`, `phoneNumber: "+56 9 XXXX XXXX"` — o en Vercel la var
 - Sin base de datos ni panel: el catálogo vive en archivos de datos editables.
 - La selección se guarda en `localStorage` del navegador (sin datos personales); se sincroniza entre pestañas.
 - Fuentes autoalojadas con `@fontsource` (sin depender de Google Fonts en la compilación).
-- Las fotos del catálogo PDF venían a ~205 px; se reescalaron a 560 px en WebP. Conviene reemplazarlas por fotos originales en alta resolución con el mismo nombre de archivo.
+- Las fotos del catálogo PDF venían a ~205 px; se ampliaron 4× con superresolución (EDSR) a ~800 px en WebP. Conviene reemplazarlas por fotos originales en alta resolución con el mismo nombre de archivo.
 - El menú móvil y el panel de selección se renderizan fuera del encabezado: el `backdrop-blur` del header encerraría elementos `position: fixed`.
