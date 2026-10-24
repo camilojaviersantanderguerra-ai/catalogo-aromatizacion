@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: siteConfig.seo.locale,
     siteName: siteConfig.brandName,
-    images: [{ url: siteConfig.seo.ogImage, width: 403, height: 403, alt: "Difusores de varillas" }],
+    images: [{ url: siteConfig.seo.ogImage, width: 1000, height: 1000, alt: "Difusores de varillas" }],
   },
   twitter: { card: "summary", title: siteConfig.seo.title, description: siteConfig.seo.description },
 };

@@ -10,13 +10,14 @@ export function Hero() {
     <section id="inicio" className="bg-catalog-pattern">
       <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 pb-14 pt-6 sm:px-6 md:grid-cols-[1.05fr_1fr] md:gap-12 md:pb-20 md:pt-14">
         <div className="relative order-1 md:order-2">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-card)] bg-photo md:aspect-[5/6]">
+          <div className="relative aspect-[3/2] overflow-hidden rounded-[var(--radius-card)] bg-photo md:aspect-[4/3]">
             <Image
               src={c.images.main.src}
               alt={c.images.main.alt}
               fill
               priority
-              sizes="(min-width: 768px) 520px, 100vw"
+              sizes="(min-width: 768px) 560px, 100vw"
+              quality={90}
               className="object-cover"
             />
           </div>
